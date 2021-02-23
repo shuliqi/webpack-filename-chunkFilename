@@ -1,0 +1,24 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build_single": "webpack --config webpack.config_single.js",
+    "build_name": "webpack --config webpack.config_name.js",
+    "build_id": "webpack --config webpack.config_id.js",
+    "build_hash": "webpack --config webpack.config_hash.js",
+    "build_chunkhash": "webpack --config webpack.config_chunkhash.js",
+    "build_chunkFilename": "webpack --config chunkFilename_single.js",
+    "build_chunkFilename_name": "webpack --config chunkFilename_name.js",
+    "build_chunkFilename_hash": "webpack --config chunkFilename_hash.js",
+    "build_chunkFilename_chunkhash": "webpack --config chunkFilename_chunkhash.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.9.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
